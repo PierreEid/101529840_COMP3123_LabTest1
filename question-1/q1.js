@@ -1,4 +1,4 @@
-const lowerCaseWords = function(mixedArr) {
+const lowerCaseWords = mixedArr => {
     return new Promise((resolve, reject) => {
         const result = mixedArr.filter(val => typeof val == "string").map(str => str.toLowerCase());
 
